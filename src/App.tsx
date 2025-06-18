@@ -16,7 +16,7 @@ export default function App() {
           Create account
         </span>
         <span>For business, band or celebrity.</span>
-        <form>
+        <form className="space-y-4 py-6">
           <div className="grid grid-cols-2 gap-4 text-[14px]">
             <div className="flex flex-col gap-1">
               <label htmlFor="firstName">First Name</label>
