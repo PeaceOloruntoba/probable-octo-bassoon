@@ -1,16 +1,20 @@
-import { appleStore, googleIcon, logo, playStore } from "./assets";
+import { appleStore, ellipse, googleIcon, logo, playStore } from "./assets";
 
 export default function App() {
   return (
     <div className="w-screen h-screen flex items-center justify-center text-[#2D3748]">
-      <div className="w-1/3 bg-gradient-to-br from-[#0F70DA] to-[#007AFF] h-full flex flex-col items-center justify-center text-white font-semibold text-xl text-center">
+      <div className="w-3/7 bg-gradient-to-br from-[#0F70DA] to-[#007AFF] h-full flex flex-col gap-16 items-center py-10  text-white font-semibold text-xl text-center">
         <span>
           Social media shared today,
           <br />
           tomorrow or by location
         </span>
+        <div className="relative">
+          <img src={ellipse} alt="" />
+          <div className="absolute"></div>
+        </div>
       </div>
-      <div className="w-2/3 h-full flex flex-col p-8 px-16">
+      <div className="w-4/7 h-full flex flex-col p-8 px-16">
         <img src={logo} alt="" className="w-fit" />
         <span className="text-black text-[24px] font-semibold py-2">
           Create account
