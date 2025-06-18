@@ -1,3 +1,5 @@
+import { googleIcon, logo } from "./assets";
+
 export default function App() {
   return (
     <div className="w-screen h-screen flex items-center justify-center text-[#2D3748]">
@@ -9,7 +11,7 @@ export default function App() {
         </span>
       </div>
       <div className="w-2/3 h-full flex flex-col p-4 px-12">
-        <img src="" alt="" />
+        <img src={logo} alt="" className="w-fit" />
         <span className="text-black text-[24px] font-semibold">
           Create account
         </span>
@@ -99,6 +101,7 @@ export default function App() {
               Create account
             </button>
             <button className="bg-[#2D3748] py-2 rounded text-white flex gap-2 items-center justify-center">
+              <img src={googleIcon} alt="" />
               Sign-in with google
             </button>
           </div>
