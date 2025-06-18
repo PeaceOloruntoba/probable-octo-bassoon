@@ -11,7 +11,9 @@ export default function App() {
         </span>
         <div className="relative">
           <img src={ellipse} alt="" />
-          <div className="absolute"></div>
+          <div className="absolute">
+            
+          </div>
         </div>
       </div>
       <div className="w-4/7 h-full flex flex-col p-8 px-16">
