@@ -4,7 +4,12 @@ export default function App() {
       <div className="w-1/3 bg-gradient-to-br from-[#0F70DA] to-[#007AFF] h-full flex flex-col items-center justify-center text-white font-semibold text-xl text-center">
         <span>Social media shared today,<br />tomorrow or by location</span>
       </div>
-      <div className="w-2/3 h-full"></div>
+      <div className="w-2/3 h-full flex flex-col">
+      <img src="" alt="" />
+      <span>Create account</span>
+      <span>For business, band or celebrity.</span>
+      <form className=""></form>
+      </div>
     </div>
   );
 }
