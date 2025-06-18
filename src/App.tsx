@@ -1,4 +1,4 @@
-import { googleIcon, logo } from "./assets";
+import { appleStore, googleIcon, logo, playStore } from "./assets";
 
 export default function App() {
   return (
@@ -112,7 +112,14 @@ export default function App() {
             Log In
           </a>
         </span>
-        <div className="flex gap-4"></div>
+        <div className="flex gap-4">
+          <button>
+            <img src={playStore} alt="" />
+          </button>
+          <button>
+            <img src={appleStore} alt="" />
+          </button>
+        </div>
       </div>
     </div>
   );
