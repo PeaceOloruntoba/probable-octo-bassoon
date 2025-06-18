@@ -1,4 +1,11 @@
-import { appleStore, ellipse, googleIcon, logo, playStore } from "./assets";
+import {
+  appleStore,
+  ellipse,
+  googleIcon,
+  logo,
+  playStore,
+  slide1,
+} from "./assets";
 
 export default function App() {
   return (
@@ -10,9 +17,9 @@ export default function App() {
           tomorrow or by location
         </span>
         <div className="relative">
-          <img src={ellipse} alt="" />
-          <div className="absolute">
-            
+          <img src={ellipse} alt="" className="w-fit px-16" />
+          <div className="absolute inset-0 top-0 left-0 flex items-center justify-center">
+            <img src={slide1} alt="" />
           </div>
         </div>
       </div>
