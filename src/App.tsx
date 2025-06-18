@@ -12,7 +12,7 @@ export default function App() {
       </div>
       <div className="w-2/3 h-full flex flex-col p-4 px-12">
         <img src={logo} alt="" className="w-fit" />
-        <span className="text-black text-[24px] font-semibold">
+        <span className="text-black text-[24px] font-semibold py-2">
           Create account
         </span>
         <span>For business, band or celebrity.</span>
