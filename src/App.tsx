@@ -112,11 +112,11 @@ export default function App() {
             Log In
           </a>
         </span>
-        <div className="flex gap-4">
-          <button>
+        <div className="flex gap-4 absolute bottom-5">
+          <button className="cursor-pointer">
             <img src={playStore} alt="" />
           </button>
-          <button>
+          <button className="cursor-pointer">
             <img src={appleStore} alt="" />
           </button>
         </div>
