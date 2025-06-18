@@ -112,6 +112,7 @@ export default function App() {
             Log In
           </a>
         </span>
+        <div className="flex gap-4"></div>
       </div>
     </div>
   );
