@@ -6,7 +6,7 @@ import playStore from "./images/Google Play Badge.png";
 import slide1 from "./images/imgfeatures-archive 4.png";
 import slide2 from "./images/imgfeatures-archive 5.png";
 import slide3 from "./images/imgfeatures-archive 6.png";
-import slides from "./images/imgfeatures-archive 6.png";
+import slides from "./images/Imgs.png";
 
 export {
   ellipse,

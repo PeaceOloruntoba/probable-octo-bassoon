@@ -4,7 +4,7 @@ import {
   googleIcon,
   logo,
   playStore,
-  slide1,
+  slides,
 } from "./assets";
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
         <div className="relative">
           <img src={ellipse} alt="" className="w-fit px-16" />
           <div className="absolute inset-0 top-0 left-0 flex items-center justify-center">
-            <img src={slide1} alt="" />
+            <img src={slides} alt="" />
           </div>
         </div>
       </div>
